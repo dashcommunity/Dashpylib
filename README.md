@@ -1,5 +1,5 @@
 ##This is a repository for a dash-cli python wrapper module. Feel free to help me out! pull away! 
-
+Check out commit summary for details 
 my first goals are to make functions inside the `pydash` module which would include
 
 1.
