@@ -1,7 +1,7 @@
-from Pydash import Pydash
+from Dashpylib  import Dashpylib
 from time import sleep
 
-Pydash = Pydash(dir="/home/nova/Downloads/dash-0.12.1/bin")
+Pydash = Dashpylib(dir="/home/nova/Downloads/dash-0.12.1/bin")
 execute = Pydash.command("./dash-cli getinfo")["blocks"]
 b = raw_input("what block do you want to be notified at? \ndashd is at block number " + str(execute) + "\n")
 trigger = True

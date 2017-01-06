@@ -4,7 +4,7 @@ from time import sleep
 from json import loads
 from shlex import split
 #run this module while ./dashd is running
-class Pydash:
+class Dashpylib:
 
 
     def __init__(self, dir):
